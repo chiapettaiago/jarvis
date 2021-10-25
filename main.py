@@ -18,6 +18,10 @@ elif(entrada == "verificar site de arquitetura"):
 elif(entrada == "deixe comigo"):
     print('Estarei aqui se precisar...')
     exit()
+elif(entrada == "Maria Vitória"):
+    msg = input("Esse é o nome da minha mãe. Tenho uma mensagem pra ela. Posso executar? ")
+    if(msg == "sim"):
+        print("Oi amor. Aqui é o seu namorado. Eu sempre te falei que eu ia criar um Jarvis pra mim, lembra? Pois é criei. Ele funciona pra você também. Vou te passar uma lista de comandos pra você começar a brincar. Quero te dizer uma coisa muito importante:Você é a princesa da minha vida. É minha grande inspiração para continuar trabalhando e correndo atrás de todos os meus sonhos e objetivos. O seu amor traz luz e paz a minha vida. Te quero pra sempre. Te amo mil milhões. Obrigado por ser minha companheira fiel, minha amante, minha melhor amiga e o meu porto seguro.")
 elif(entrada == "calculadora"):
     operacao = input('Soma, multiplicação, subtração ou divisão? ')
 
@@ -44,7 +48,7 @@ elif(entrada == "baixar vídeos do youtube"):
 else:
     print('Não entendi esse comando senhor...')
 
-input()
+input("Insira o próximo comando ou tecle enter para finalizar... ")
 
 
 
